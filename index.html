@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+
+  <link rel="stylesheet" href="./styles/index.css">
+  <script src="./scripts/index.js" type="module" async></script>
+</head>
+
+<body style="opacity: 0;">
+
+  <main>
+    <section aria-labelledby="section-title" class="section">
+      <div class="header">
+        <div class="balance">
+          <small class="text-light">My balance</small>
+          <strong>$921.48</strong>
+        </div>
+
+        <img
+          src="./images/logo.svg"
+          alt="Logo"
+          width="72"
+          height="48"
+        />
+      </div>
+
+      <div class="card">
+        <h1 id="section-title">Spending - Last 7 days</h1>
+
+        <ul id="bar-chart"></ul>
+
+        <hr />
+
+        <div class="total-container">
+          <div class="total">
+            <div class="text-brown">Total this month</div>
+            <strong class="big">
+              $478.33
+            </strong>
+          </div>
+
+          <div class="percentage">
+            <strong>+2.4%</strong>
+            <div class="text-brown">
+              from last month
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>

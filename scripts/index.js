@@ -9,7 +9,7 @@ async function loadData() {
     const $create = document.createElement.bind(document);
 
     try {
-        const response = await fetch(`${location.origin}/data.json`, {
+        const response = await fetch("data.json", {
             headers: {
                 "Content-Type": "application/json",
             },
